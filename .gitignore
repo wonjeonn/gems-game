@@ -1,0 +1,21 @@
+# ignore Python bytecode files
+*.pyc
+*.pyo
+__pycache__/
+
+# ignore virtual environments
+venv/
+env/
+
+# ignore test output files
+*.log
+*.out
+*.err
+
+# ignore IDE-specific files
+.vscode/
+.idea/
+
+# ignore system-specific files
+.DS_Store  # macOS
+Thumbs.db  # Windows
